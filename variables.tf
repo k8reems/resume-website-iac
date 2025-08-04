@@ -39,3 +39,15 @@ variable "custom_domain" {
   type        = string
   default     = ""
 }
+
+variable "dnszone_domain" {
+  description = "DNS Zone Custom domain (optional)"
+  type        = string
+  default     = ""
+}
+
+variable "resume_subdomain" {
+  description = "Subdomain for the resume webpage (optional)"
+  type        = string
+  default     = ""
+}
